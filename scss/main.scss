@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// VARIABLES
+@import './utilidades/colores';
+@import './utilidades/cards';
+@import './utilidades/titleTypo';
+
+// SECCIONES
+@import './header-footer/header';
+@import './secciones/index';
+@import './secciones/envios';
+@import './secciones/escritores';
+@import './secciones/preguntas';
+@import './header-footer/footer';

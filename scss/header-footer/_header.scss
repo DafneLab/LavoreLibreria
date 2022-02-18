@@ -1,0 +1,31 @@
+
+
+.logoRound {
+    border-radius: 50%;
+}
+
+
+.nav{
+    background-color: $amarilloMaiz;
+    .listaLinks{
+        li{
+        color:black;
+        }
+    }
+}
+
+.navbar ul a:hover {
+    border-bottom: 2px solid rgb(108, 123, 143);
+}
+
+.fa-whatsapp {
+    font-size: 40px;
+    color: $tomate;
+}
+
+.fixed{
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+    bottom: 40px;
+}

@@ -1,0 +1,12 @@
+.show{
+    background-color: whitesmoke;
+}
+
+.accordion-button{
+    background-color: $gris;
+    color: whitesmoke;
+}
+.accordion-button:not(.collapsed){
+    background-color: $tomate;
+    color: whitesmoke;
+}

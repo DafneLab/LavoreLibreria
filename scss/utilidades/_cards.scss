@@ -1,0 +1,60 @@
+
+.card{
+    margin: 0 auto;
+}
+
+
+// .card-body {
+//     height: 210px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     justify-content: flex-start;
+// }
+
+
+@mixin box ($fondo) {
+    background-color: $fondo;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 2%;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.box1{
+    @include box($beige);
+}
+
+.box2{
+    @include box ($color-bone);
+}
+
+.box3{
+    @include box ($color-fondoCard);
+}
+
+// // CARDS ESCRITORES
+
+// .escritores div{
+//     display: flex;
+//     background-color: $color-fondoCard;
+//     padding: 20px;
+//     margin: 20px;
+//     border-radius: 2%;
+//     align-items: center;
+//     flex-direction: column;
+
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+
